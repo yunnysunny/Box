@@ -1,0 +1,323 @@
+repo_name: yunnysunny/Box
+report_id: 18cfb6780120031d3eb98a1cf512d8f9
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:55:02+00:00'
+requested_by: watson1982
+provider: github
+branch: main
+detected_tools_count: 23
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/yunnysunny/Box
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/yunnysunny/Box
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/yunnysunny/Box
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/yunnysunny/Box
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '21.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: EventBus
+  description: An open-source library for Android and Java
+  website_url: http://greenrobot.org/eventbus/
+  version: 3.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/9610/no-img-open-source.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2023-04-24 12:57:55.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yunnysunny/Box
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/.github/workflows/test.yml
+  detection_source: ".github/workflows/test.yml"
+  last_updated_by: watson1982
+  last_updated_on: 2024-01-15 13:45:43.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Cuke
+  last_updated_on: 2022-06-23 02:34:15.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '5.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: com.github.bumptech.glide:glide
+  description: A fast and efficient image loading library for Android focused on smooth
+    scrolling
+  version: 4.16.0
+  license: BSD-2-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-22 16:05:41.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.10.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: com.google.zxing:core
+  description: Core barcode encoding/decoding library
+  version: 3.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: com.googlecode.juniversalchardet:juniversalchardet
+  description: Java port of universalchardet
+  version: 1.0.3
+  license: MPL-1.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: com.squareup.okhttp3:okhttp
+  description: 'Null'
+  version: 3.12.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: com.squareup.okio:okio
+  description: A modern I/O API for Java
+  version: 3.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+  vulnerabilities:
+  - name: Okio Signed to Unsigned Conversion Error vulnerability
+    cve_id: CVE-2023-3635
+    cve_url: https://github.com/advisories/GHSA-w33c-445m-f8w7
+    detected_date: Jul 14
+    severity: moderate
+    first_patched: 3.4.0
+- name: com.thoughtworks.xstream:xstream
+  description: XStream is a serialization library from Java objects to XML and back
+  version: 1.4.20
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+  vulnerabilities:
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40153
+    cve_url: https://github.com/advisories/GHSA-fv22-xp26-mm9w
+    detected_date: Sep 21
+    severity: high
+    first_patched: 
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40152
+    cve_url: https://github.com/advisories/GHSA-3f7h-mf4q-vrm4
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+  - name: XStream Denial of Service due to parser crash
+    cve_id: CVE-2022-40156
+    cve_url: https://github.com/advisories/GHSA-4rv7-wj6m-6c6r
+    detected_date: Sep 21
+    severity: low
+    first_patched: 
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  version: 1.10.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib
+  description: Kotlin Standard Library for JVM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk8
+  description: Kotlin Standard Library JDK 8 extension
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: pieceking
+  last_updated_on: 2024-01-21 09:19:33.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/yunnysunny/Box/blob/main/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: takkie
+  last_updated_on: 2023-11-09 14:39:43.000000000 Z
